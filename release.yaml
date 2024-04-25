@@ -12,7 +12,7 @@ spec:
       sourceRef:
         kind: GitRepository
         name: tmc-cd-wordpress-demo 
-        namespace: default
+        namespace: tanzu-continuousdelivery-resources
       interval: 1m
   valuesFrom:
     - kind: ConfigMap
