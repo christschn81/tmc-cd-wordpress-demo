@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: wordpress
-  namespace: tanzu-continuousdelivery-resources
+  namespace: blog
 spec:
   interval: 1m
   url: https://github.com/christschn81/tmc-cd-wordpress-demo
